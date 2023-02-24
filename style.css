@@ -1,0 +1,229 @@
+/* Google Fonts - Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;800;900&display=swap');
+
+/* Google Icon */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      60deg,
+      #7A5fc9,
+      #DE52A3
+    );
+}
+
+img {
+  width: 50px;
+}
+
+.card {
+  background-color: #30344C;
+  width: 350px;
+  padding: 40px 20px;
+  border-radius: 15px;
+  box-shadow: 5px 10px 30px -5px rgba(0, 0, 0, 0.6);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header a span:hover {
+  background-color: #80808065;
+  border-radius: 50%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img__profile img {
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 5px 10px 30px -5px rgba(0, 0, 0, 0.6);
+}
+
+.img__profile {
+  position: relative;
+}
+
+.check {
+  position: absolute;
+  bottom: 10px;
+  right: -3px;
+  background: linear-gradient(
+    90deg,
+    #7A5fc9,
+    #DE52A3
+  );
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 5px 10px 30px -5px rgba(0, 0, 0, 0.6);
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 10
+}
+
+.text__profile {
+  color: #fff;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 250px;
+  padding-bottom: 30px;
+}
+
+.text__profile h1 {
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+.text__profile h5 {
+  color: lightgrey;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.text__profile p {
+  padding-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.text__profile button {
+  margin-top: 20px;
+  padding: 10px 45px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 5px 10px 30px -5px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(
+    90deg,
+    #7A5fc9,
+    #DE52A3
+  );
+  color: #fff;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.text__profile button:hover {
+  box-shadow: 5px 0px 30px -5px #b05fc9;
+  text-shadow: 0 0 10px #fff;
+}
+
+.btn__profile {
+  border-top: 1px solid #80808065;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.btn__profile ul {
+  display: flex;
+  align-items: center;
+}
+
+.btn__profile ul li {
+  list-style: none;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_btnProfile {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  box-shadow: 5px 10px 30px -5px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+li:nth-child(1) .img_btnProfile {
+  background: linear-gradient(
+    90deg,
+    #075CFF,
+    #43B2F7
+  );
+}
+
+li:nth-child(2) .img_btnProfile {
+  background: linear-gradient(
+    90deg,
+    #BE1B78,
+    #E74189
+  );
+}
+
+li:nth-child(3) .img_btnProfile {
+  background: linear-gradient(
+    90deg,
+    #FF0000,
+    #FF0000
+  );
+}
+
+.img_btnProfile a img {
+  width: 30px;
+  filter: invert(100%);
+  transition: 300ms;
+}
+
+.img_btnProfile:hover a img {
+  transform: scale(1.2);
+}
+
+.btn__profile ul li h3 {
+  color: #fff;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.btn__profile ul li a {
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
