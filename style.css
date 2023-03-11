@@ -34,7 +34,9 @@ img {
 }
 
 .card {
-  background-color: #30344C;
+  /*background-color: #30344C;*/
+      background-color: #0c1022;
+
   width: 350px;
   padding: 40px 20px;
   border-radius: 15px;
