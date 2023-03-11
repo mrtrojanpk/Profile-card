@@ -10,7 +10,12 @@ body{
     justify-content: center;
     align-items: center;
     letter-spacing: 1px;
-    background-color: #0c1022;
+    /*background-color: #0c1022;*/
+    background: linear-gradient(
+      60deg,
+      #7A5fc9,
+      #DE52A3
+    );
 }
 .login_form_container{
     position: relative;
